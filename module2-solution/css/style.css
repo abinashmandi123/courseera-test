@@ -11,6 +11,7 @@ p{
 	float: right;
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 0;
 }
 p.chicken{
 	background-color: #ffb6c1;
