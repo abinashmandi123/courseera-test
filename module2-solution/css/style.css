@@ -4,12 +4,22 @@ div.content{
 	margin:10px;
 	
 }
+
 p{
-	background-color: #ffb6c1;
+	
 	border: 1px solid black;
 	float: right;
 	font-size: 20px;
 	font-weight: bold;
+}
+p.chicken{
+	background-color: #ffb6c1;
+}
+p.beef{
+	background-color: #ff6666;
+}
+p.sushi{
+	background-color: #ffff99;
 }
 section{
 	clear:right;
@@ -26,7 +36,6 @@ section{
 @media(min-width: 768px) and (max-width: 991px){
 	div.content{
 		width: 50%;
-		float: left;
 	}
 }
 @media(max-width: 767px){
